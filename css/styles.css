@@ -203,6 +203,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  flex-wrap: wrap;
 }
 .subtitle-menu-item {
   max-width: 264px;
