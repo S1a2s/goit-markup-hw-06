@@ -146,7 +146,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\.jpg);
+    url(../images/banner-bg-320.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1057,7 +1057,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(???);
+      url(../images/banner-bg-768.jpg);
     max-width: 768px;
     padding: 112px 0;
     margin: 72px auto 0;
@@ -1075,7 +1075,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(???);
+      url(../images/banner-bg-1158.jpg);
     max-width: 1440px;
     padding: 188px 0;
   }
@@ -1165,5 +1165,35 @@ img {
 @media screen and (min-width: 768px) {
   .open-menu-btn {
     display: none;
+  }
+}
+/* retina */
+@media screen and (min-resolution: 192dpi) {
+  .tit-btn {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/banner-bg-320@2x.jpg);
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .tit-btn {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/banner-bg-768@2x.jpg);
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px) {
+  .tit-btn {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/banner-bg-1158@2x.jpg);
   }
 }
