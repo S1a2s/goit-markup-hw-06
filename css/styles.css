@@ -152,7 +152,7 @@ img {
   background-size: cover;
   max-width: 320px;
   padding: 72px 0;
-  margin: 56px auto 0;
+  /* margin: 56px auto 0; */
 }
 .container {
 }
@@ -163,7 +163,7 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin: 0 auto 72px;
-  max-width: 288px;
+  max-width: 217px;
 }
 .button-order {
   color: #fff;
@@ -422,7 +422,6 @@ img {
   margin-bottom: 16px;
   display: block;
   font-style: normal;
-  margin-top: 1.5px;
   text-align: center;
 }
 .footer-item {
@@ -751,6 +750,7 @@ img {
 .open-menu-btn {
   display: block;
   position: fixed;
+  /* position: absolute; */
   top: 16px;
   right: 16px;
   width: 24px;
@@ -814,7 +814,7 @@ img {
   fill: #2e2f42;
 }
 .modal-nav-block {
-  margin-bottom: 168px;
+  margin-bottom: auto;
 }
 .modal-nav-list {
   display: flex;
@@ -1010,7 +1010,10 @@ img {
 
 @media screen and (min-width: 768px) {
   .footer {
-    padding-left: 108px;
+    /* padding-left: 108px; */
+  }
+  .container {
+    width: 584px;
   }
   .foot {
     justify-content: flex-start;
@@ -1062,7 +1065,7 @@ img {
       url(../images/banner-bg-768.jpg);
     max-width: 768px;
     padding: 112px 0;
-    margin: 72px auto 0;
+    /* margin: 72px auto 0; */
   }
   .title-business {
     font-size: 56px;
