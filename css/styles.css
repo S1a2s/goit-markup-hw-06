@@ -301,8 +301,8 @@ img {
   gap: 24px;
 }
 .social-links-subtitle {
-  height: 40px;
-  width: 40px;
+  /* height: 40px;
+  width: 40px; */
 }
 .soc-link {
   background-color: #4d5ae5;
@@ -311,6 +311,8 @@ img {
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 40px;
+  width: 40px;
 }
 .soc-link:hover,
 .soc-link:focus {
