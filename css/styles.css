@@ -816,7 +816,9 @@ img {
 }
 .modal-nav-item {
 }
-
+.modal-nav-item:nth-child(1) .modal-nav-link {
+  color: #404bbf;
+}
 .modal-nav-link {
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
@@ -841,6 +843,9 @@ img {
 }
 
 .modal-address-item {
+}
+.modal-address-item:nth-child(1) .modal-address-link {
+  color: #404bbf;
 }
 .modal-address-link {
   color: #434455;
