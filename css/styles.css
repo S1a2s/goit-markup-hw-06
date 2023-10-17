@@ -152,9 +152,7 @@ img {
   background-size: cover;
   max-width: 320px;
   padding: 72px 0;
-  /* margin: 56px auto 0; */
-}
-.container {
+  margin: 0 auto;
 }
 .title-business {
   color: #fff;
