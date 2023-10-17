@@ -1003,7 +1003,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .footer {
-    /* padding-left: 108px; */
+    padding-left: 108px;
   }
   .container {
     /* width: 584px; */
